@@ -8,7 +8,7 @@ import About from "./pages/About/About";
 
 import Contact from "./pages/Contact/Contact";
 
-// import FeaturedProjects from "./pages/Featured Projects/FeaturedProjects";
+import FeaturedProjects from "./pages/Featured Projects/FeaturedProjects";
 
 // import GithubStats from "./pages/Github Stats/GithubStats";
 
@@ -98,7 +98,7 @@ function App() {
           <Skills />
 
           {/* PROJECTS */}
-          {/* <FeaturedProjects /> */}
+          <FeaturedProjects />
 
           {/* PRODUCTS */}
           {/* <Products /> */}
