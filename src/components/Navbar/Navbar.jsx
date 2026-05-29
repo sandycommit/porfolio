@@ -71,7 +71,7 @@ export default function Navbar() {
   /* RESUME */
   /* ====================================================== */
 
-  const resumeUrl = "/resume.pdf";
+  const resumeUrl = "/SANTHOSH KUMAR S FullStack Developer.pdf";
 
   return (
     <>
