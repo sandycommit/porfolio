@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+
+/* ====================================================== */
+/* RUBIK GLITCH */
+/* ====================================================== */
+
+.font-glitch {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* ====================================================== */
+/* TERMINAL SCROLLBAR */
+/* ====================================================== */
+
+.terminal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 92, 246, 0.4) transparent;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+/* WIDTH */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* TRACK */
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* THUMB */
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(139, 92, 246, 0.7),
+    rgba(6, 182, 212, 0.7)
+  );
+
+  border-radius: 999px;
+
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(139, 92, 246, 1),
+    rgba(6, 182, 212, 1)
+  );
+}
+
+/* CORNER */
+.terminal-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ====================================================== */
+/* MATRIX RAIN */
+/* ====================================================== */
+
+@keyframes matrixRain {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(220vh);
+  }
+}
+
+.matrix-column {
+  animation-name: matrixRain;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
