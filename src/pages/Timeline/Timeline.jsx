@@ -45,7 +45,7 @@ export default function Timeline() {
       year: "2024",
 
       title:
-        "Frontend Development Internship",
+        "Frontend Development Course",
 
       subtitle:
         "Pumo Technovation Institute — Vadapalani, Chennai",
@@ -69,7 +69,7 @@ export default function Timeline() {
       year: "FEB 2025 — AUG 2025",
 
       title:
-        "Software Developer Intern",
+        "Frontend Developer Intern",
 
       subtitle:
         "Emayam Technologies Pvt. Ltd. — Velachery, Chennai",
@@ -93,7 +93,7 @@ export default function Timeline() {
       year: "AUG 2025 — JUL 2026",
 
       title:
-        "Software Developer • Team Lead",
+        "Frontend Developer • Teach Head",
 
       subtitle:
         "Emayam Technologies Pvt. Ltd. — Velachery, Chennai",

@@ -93,7 +93,7 @@ export default function Contact() {
 
       name: "GitHub",
 
-      link: "https://github.com",
+      link: "https://github.com/sandycommit?tab=repositories",
     },
 
     {
@@ -101,16 +101,16 @@ export default function Contact() {
 
       name: "LinkedIn",
 
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/santhoshkumar-developer",
     },
 
-    {
-      icon: FaTwitter,
+    // {
+    //   icon: FaTwitter,
 
-      name: "Twitter",
+    //   name: "Twitter",
 
-      link: "https://twitter.com",
-    },
+    //   link: "https://twitter.com",
+    // },
   ];
 
   /* ====================================================== */

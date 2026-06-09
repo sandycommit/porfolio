@@ -43,39 +43,59 @@ export default function FeaturedProjects() {
     },
 
     {
-      title: "EalyEdge",
+      title: "Flxlif",
       description:
-        "Modern E-Learning Platform supporting course management, authentication, authorization, video uploads, and content delivery for students and instructors.",
+        "Property and space management platform for PG accommodations, room rentals, virtual offices, and workspace management. Features include property listings, booking workflows, tenant management, space allocation, and administrative dashboards for efficient operations.",
       tags: [
-        "Next.js",
+        "React.js",
+        "JavaScript",
         "Tailwind CSS",
+        "Python",
         "Django",
         "REST API",
-        "Authentication",
-        "Authorization",
       ],
       achievement:
-        "Delivered secure course delivery workflows with role-based access management and video content handling capabilities.",
+        "Developed dashboard modules, property management interfaces, booking workflows, reusable components, and integrated REST APIs for a scalable space management solution.",
       live: false,
       company: true,
       link: "#",
     },
 
     {
-      title: "Chrome Extension Suite",
+      title: "Scrapion",
       description:
-        "Collection of productivity-focused Chrome Extensions including DevLens, Color Picker, Auto Clicker, and File Converter Hub.",
+        "Advanced data scraping and automation platform designed to collect, process, and organize data from multiple online sources. Includes scraping workflows, data management dashboards, automation tools, and reporting capabilities.",
       tags: [
         "React.js",
-        "TypeScript",
         "JavaScript",
         "Tailwind CSS",
-        "Chrome API",
+        "Python",
+        "Django",
+        "REST API",
       ],
       achievement:
-        "Built and launched multiple Chrome Extensions focused on productivity, automation, and developer efficiency.",
+        "Built user dashboards, scraping management interfaces, API integrations, and data visualization modules to streamline large-scale data collection and processing.",
       live: false,
-      company: false,
+      company: true,
+      link: "#",
+    },
+
+    {
+      title: "Fiasite",
+      description:
+        "Multi-vendor eCommerce platform supporting buyers, sellers, and administrators. Features product management, order processing, seller storefronts, customer accounts, payment workflows, and centralized administration tools.",
+      tags: [
+        "React.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "Python",
+        "Django",
+        "REST API",
+      ],
+      achievement:
+        "Developed buyer and seller dashboards, product management modules, order workflows, reusable UI components, and integrated backend APIs for a production-ready marketplace platform.",
+      live: false,
+      company: true,
       link: "#",
     },
   ];

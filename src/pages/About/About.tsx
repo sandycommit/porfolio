@@ -56,7 +56,7 @@ export default function About() {
   const experiences = [
     {
       year: "FEB 2025 — AUG 2025",
-      role: "Software Developer Intern",
+      role: "Frontend Developer Intern",
       company: "Emayam Technologies Pvt. Ltd.",
       location: "Velachery, Chennai",
       type: "Internship Phase",
@@ -67,7 +67,7 @@ export default function About() {
 
     {
       year: "AUG 2025 — JUL 2026",
-      role: "Software Developer",
+      role: "Frontend Developer",
       company: "Emayam Technologies Pvt. Ltd.",
       location: "Velachery, Chennai",
       type: "Permanent Employee",
