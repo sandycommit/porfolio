@@ -155,14 +155,14 @@ export default function About() {
 
               <div>
                 <h3 className="text-2xl sm:text-3xl font-black mb-3">
-                  The Builder Mindset
+                  About Me
                 </h3>
 
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20">
                   <div className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
 
                   <span className="text-xs uppercase tracking-[0.2em] text-violet-300">
-                    Shipping Continuously
+                    Frontend & Backend Developer
                   </span>
                 </div>
               </div>
@@ -170,10 +170,15 @@ export default function About() {
 
             {/* Description */}
             <p className="text-zinc-400 leading-relaxed text-base sm:text-lg mb-10 sm:mb-14">
-              My passion lies at the intersection of design, engineering, and
-              business. I approach every project not just as a developer, but as
-              a product builder focused on delivering exceptional user
-              experiences and scalable technology.
+              I am a Full Stack Developer with 1 year of professional experience
+              building modern web applications using React.js, JavaScript,
+              Tailwind CSS, Python, Django, and REST APIs. I enjoy creating
+              responsive user interfaces, developing scalable backend services,
+              and solving real-world business problems through technology.
+              Throughout my journey, I have contributed to enterprise platforms,
+              e-commerce solutions, property management systems, and data
+              automation tools while continuously improving my technical and
+              problem-solving skills.
             </p>
 
             {/* Divider */}
@@ -182,9 +187,9 @@ export default function About() {
             {/* Features */}
             <div className="space-y-5">
               {[
-                "Scalable Architecture",
-                "User-Centric Design",
-                "Rapid Iteration",
+                "React.js & Modern Frontend Development",
+                "Django & REST API Development",
+                "Responsive & Scalable Web Applications",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
                   <CheckCircle2 size={20} className="text-cyan-400" />
@@ -195,95 +200,81 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* ================================= */}
-          {/* CENTER CONTENT */}
-          {/* ================================= */}
-
-          <div className="xl:col-span-5 flex flex-col gap-6 sm:gap-8">
-            {/* CURRENT FOCUS */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-              viewport={{ once: true }}
-              className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-2xl p-8"
-            >
-              {/* Header */}
-              <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center gap-3">
-                  <Cpu className="text-cyan-400" size={22} />
-
-                  <h3 className="text-3xl font-black">Current Focus</h3>
-                </div>
-
-                <span className="text-xs uppercase tracking-[0.25em] text-zinc-500">
-                  Modules_Active
-                </span>
-              </div>
-
-              {/* Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                {focusAreas.map((item, index) => {
-                  const Icon = item.icon;
-
-                  return (
-                    <motion.div
-                      whileHover={{
-                        y: -6,
-                        scale: 1.02,
-                      }}
-                      key={index}
-                      className="group rounded-3xl border border-white/10 bg-white/[0.03] p-6 hover:border-violet-500/20 transition-all duration-300"
-                    >
-                      <div
-                        className={`w-14 h-14 rounded-2xl bg-black/50 border border-white/10 flex items-center justify-center mb-5`}
-                      >
-                        <Icon size={28} className={item.color} />
-                      </div>
-
-                      <h4 className="text-xl font-bold mb-2">{item.title}</h4>
-
-                      <p className="text-zinc-500">{item.desc}</p>
-                    </motion.div>
-                  );
-                })}
-              </div>
-            </motion.div>
-          </div>
-        </div>
-
-        {/* TECHNOLOGIES */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-2xl p-8 my-5 sm:my-10"
+            className="rounded-[32px] xl:col-span-5 border border-white/10 bg-white/[0.03] backdrop-blur-2xl p-8"
           >
-            {/* Header */}
-            <div className="flex items-center gap-3 mb-8">
-              <Database size={22} className="text-violet-400" />
+            <h3 className="text-3xl font-black mb-8">Professional Overview</h3>
 
-              <h3 className="text-3xl font-black">Technologies Mastered</h3>
-            </div>
+            <div className="space-y-6">
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Experience</span>
+                <span className="font-bold">1+ Year</span>
+              </div>
 
-            {/* Tech Tags */}
-            <div className="flex flex-wrap gap-4">
-              {technologies.map((tech, index) => (
-                <motion.div
-                  whileHover={{
-                    scale: 1.05,
-                  }}
-                  key={index}
-                  className="px-5 py-3 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-md flex items-center gap-3"
-                >
-                  <div className="w-2 h-2 rounded-full bg-cyan-400" />
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Projects Delivered</span>
+                <span className="font-bold">5+</span>
+              </div>
 
-                  <span className="text-zinc-200 font-medium">{tech}</span>
-                </motion.div>
-              ))}
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Frontend</span>
+                <span className="font-bold">React.js, Tailwindcss</span>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Backend</span>
+                <span className="font-bold">Python Django</span>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">API Integration</span>
+                <span className="font-bold">REST APIs</span>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Location</span>
+                <span className="font-bold">Chennai, Tamil Nadu, India</span>
+              </div>
             </div>
           </motion.div>
+        </div>
+
+        {/* TECHNOLOGIES */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-2xl p-8 my-5 sm:my-10"
+        >
+          {/* Header */}
+          <div className="flex items-center gap-3 mb-8">
+            <Database size={22} className="text-violet-400" />
+
+            <h3 className="text-3xl font-black">Technologies Mastered</h3>
+          </div>
+
+          {/* Tech Tags */}
+          <div className="flex flex-wrap gap-4">
+            {technologies.map((tech, index) => (
+              <motion.div
+                whileHover={{
+                  scale: 1.05,
+                }}
+                key={index}
+                className="px-5 py-3 rounded-2xl border border-white/10 bg-black/40 backdrop-blur-md flex items-center gap-3"
+              >
+                <div className="w-2 h-2 rounded-full bg-cyan-400" />
+
+                <span className="text-zinc-200 font-medium">{tech}</span>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
         {/* ================================= */}
         {/* EXPERIENCE */}
