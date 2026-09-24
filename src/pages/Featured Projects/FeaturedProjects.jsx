@@ -1,9 +1,25 @@
-import React from "react";
+
 import { ArrowUpRight, Layers3 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function FeaturedProjects() {
   const featuredProjects = [
+   {
+  title: "Smart Estate",
+  description:
+    "Real Estate CRM & ERP platform covering sales, post-sales, and business operations with role-based Admin Dashboards and module-wise workflows.",
+  tags: [
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Node.js",
+    "Swagger",
+  ],
+  live: false,
+  company: true,
+  link: "#",
+},
     {
       title: "Focult",
       description:
@@ -183,11 +199,11 @@ export default function FeaturedProjects() {
                 ))}
               </div>
 
-              <div className="mb-6 p-4 rounded-2xl border border-emerald-500/20 bg-emerald-500/5">
+             {project.achievement && <div className="mb-6 p-4 rounded-2xl border border-emerald-500/20 bg-emerald-500/5">
                 <p className="text-sm text-emerald-400 leading-relaxed">
                   🏆 {project.achievement}
                 </p>
-              </div>
+              </div>}
 
               {project.live ? (
                 <a

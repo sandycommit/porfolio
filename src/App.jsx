@@ -60,7 +60,7 @@ function App() {
       {systemState === "install" && (
         <InstallationScreen
           onComplete={() =>
-            setSystemState("boot")
+            setSystemState("running")
           }
         />
       )}

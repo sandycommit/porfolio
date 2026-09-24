@@ -26,19 +26,15 @@ export default function Footer() {
   const socials = [
     {
       icon: FaGithub,
-      href: "https://github.com/",
+      href: "https://github.com/sandycommit?tab=repositories",
     },
     {
       icon: FaLinkedin,
-      href: "https://linkedin.com/",
-    },
-    {
-      icon: FaTwitter,
-      href: "https://twitter.com/",
+      href: "https://www.linkedin.com/in/santhoshkumar-developer",
     },
     {
       icon: Mail,
-      href: "mailto:hello@example.com",
+      href: "mailto:santhoshvel223@gmail.com",
     },
   ];
 

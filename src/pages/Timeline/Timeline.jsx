@@ -1,16 +1,12 @@
-"use client";
-
-import React from "react";
-
 import {
   GraduationCap,
-  Briefcase,
   Rocket,
   Boxes,
   BrainCircuit,
   ArrowRight,
   Code2,
   Server,
+  Building2,
 } from "lucide-react";
 
 import { motion } from "framer-motion";
@@ -112,6 +108,31 @@ export default function Timeline() {
 
       color: "violet",
     },
+    {
+  year: "AUG 2026 — PRESENT",
+
+  title:
+    "Junior Frontend Developer",
+
+  subtitle:
+    "Sidharth Housing Private Limited — Chrompet, Chennai",
+
+  description:
+    "Currently working on Smart Estate, a real estate CRM and ERP platform covering sales, post-sales, admin dashboards, role-based access, and module-wise business workflows. Developing responsive interfaces, reusable components, API integrations, and business modules using React.js, TypeScript, Tailwind CSS, shadcn/ui, and Node.js.",
+
+  technologies: [
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Node.js",
+    "Swagger",
+  ],
+
+  icon: Building2,
+
+  color: "cyan",
+},
   ];
 
   /* ====================================================== */

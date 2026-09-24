@@ -47,35 +47,44 @@ export default function About() {
     "PostgreSQL",
     "Redis",
     "Docker",
-    "AWS / GCP",
     "Tailwind CSS",
-    "GraphQL",
     "OpenAI API",
   ];
 
-  const experiences = [
-    {
-      year: "FEB 2025 — AUG 2025",
-      role: "Frontend Developer Intern",
-      company: "Emayam Technologies Pvt. Ltd.",
-      location: "Velachery, Chennai",
-      type: "Internship Phase",
-      desc: "Worked on scalable frontend systems, internal dashboards, modern UI components, and product-focused engineering workflows while collaborating with senior developers and production teams.",
-      color: "border-cyan-400",
-      glow: "shadow-[0_0_40px_rgba(6,182,212,0.15)]",
-    },
+const experiences = [
+  {
+    year: "AUG 2026 — PRESENT",
+    role: "Junior Frontend Developer",
+    company: "Sidharth Housing Private Limited",
+    location: "Chrompet, Chennai",
+    type: "Current Role",
+    desc: "Currently working on Smart Estate, a real estate CRM and ERP platform covering sales, post-sales, admin dashboards, role-based access, and module-wise business workflows using React.js, TypeScript, Tailwind CSS, shadcn/ui, Node.js, and Swagger.",
+    color: "border-cyan-400",
+    glow: "shadow-[0_0_40px_rgba(6,182,212,0.15)]",
+  },
 
-    {
-      year: "AUG 2025 — JUL 2026",
-      role: "Frontend Developer",
-      company: "Emayam Technologies Pvt. Ltd.",
-      location: "Velachery, Chennai",
-      type: "Permanent Employee",
-      desc: "Promoted to full-time developer role after internship. Contributed to scalable web applications, frontend architecture, reusable component systems, optimization workflows, and production-grade feature delivery.",
-      color: "border-violet-500",
-      glow: "shadow-[0_0_40px_rgba(139,92,246,0.15)]",
-    },
-  ];
+  {
+    year: "AUG 2025 — JUL 2026",
+    role: "Frontend Developer",
+    company: "Emayam Technologies Pvt. Ltd.",
+    location: "Velachery, Chennai",
+    type: "Full-Time",
+    desc: "Developed responsive web applications, admin and customer dashboards, reusable React components, and REST API integrations. Contributed to testing, debugging, deployment, and production releases.",
+    color: "border-violet-500",
+    glow: "shadow-[0_0_40px_rgba(139,92,246,0.15)]",
+  },
+
+  {
+    year: "FEB 2025 — AUG 2025",
+    role: "Frontend Developer Intern",
+    company: "Emayam Technologies Pvt. Ltd.",
+    location: "Velachery, Chennai",
+    type: "Internship",
+    desc: "Worked with React.js, Django, PostgreSQL, REST APIs, responsive UI development, debugging, testing, and deployment workflows while gaining hands-on full-stack development experience.",
+    color: "border-fuchsia-500",
+    glow: "shadow-[0_0_40px_rgba(217,70,239,0.15)]",
+  },
+];
 
   return (
     <section
@@ -170,15 +179,16 @@ export default function About() {
 
             {/* Description */}
             <p className="text-zinc-400 leading-relaxed text-base sm:text-lg mb-10 sm:mb-14">
-              I am a Full Stack Developer with 1 year of professional experience
-              building modern web applications using React.js, JavaScript,
-              Tailwind CSS, Python, Django, and REST APIs. I enjoy creating
-              responsive user interfaces, developing scalable backend services,
-              and solving real-world business problems through technology.
-              Throughout my journey, I have contributed to enterprise platforms,
-              e-commerce solutions, property management systems, and data
-              automation tools while continuously improving my technical and
-              problem-solving skills.
+              I am a Full Stack Developer with 1 year 3 months of professional
+              experience building modern web applications using React.js,
+              TypeScript, JavaScript, Tailwind CSS, Django, Node.js, and REST
+              APIs. I specialize in developing responsive user interfaces,
+              reusable components, role-based dashboards, and business-driven
+              applications. Currently, I work on real estate CRM and ERP
+              platforms, contributing to sales, post-sales, admin dashboards,
+              and module-based workflows. I enjoy solving real-world business
+              problems through technology while continuously improving my
+              development and problem-solving skills.
             </p>
 
             {/* Divider */}
@@ -187,8 +197,8 @@ export default function About() {
             {/* Features */}
             <div className="space-y-5">
               {[
-                "React.js & Modern Frontend Development",
-                "Django & REST API Development",
+                "React.js, React.ts & Modern Frontend Development",
+                "Node.js, Django & REST API Development",
                 "Responsive & Scalable Web Applications",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
@@ -212,27 +222,32 @@ export default function About() {
             <div className="space-y-6">
               <div className="flex justify-between items-center">
                 <span className="text-zinc-400">Experience</span>
-                <span className="font-bold">1+ Year</span>
+                <span className="font-bold">1 Year 3 Months</span>
               </div>
 
               <div className="flex justify-between items-center">
-                <span className="text-zinc-400">Projects Delivered</span>
-                <span className="font-bold">5+</span>
+                <span className="text-zinc-400">Current Focus</span>
+                <span className="font-bold">Real Estate CRM & ERP</span>
               </div>
 
               <div className="flex justify-between items-center">
                 <span className="text-zinc-400">Frontend</span>
-                <span className="font-bold">React.js, Tailwindcss</span>
+                <span className="font-bold">React.js, TypeScript</span>
               </div>
 
               <div className="flex justify-between items-center">
                 <span className="text-zinc-400">Backend</span>
-                <span className="font-bold">Python Django</span>
+                <span className="font-bold">Django, Node.js</span>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-zinc-400">Database</span>
+                <span className="font-bold">PostgreSQL</span>
               </div>
 
               <div className="flex justify-between items-center">
                 <span className="text-zinc-400">API Integration</span>
-                <span className="font-bold">REST APIs</span>
+                <span className="font-bold">REST API, Swagger</span>
               </div>
 
               <div className="flex justify-between items-center">

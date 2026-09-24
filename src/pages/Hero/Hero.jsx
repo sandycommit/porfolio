@@ -2,15 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   Mail,
-  // Github,
-  // Linkedin,
-  // Twitter,
   Database,
   Cpu,
   Cloud,
   Layers3,
-  //  Sparkles,
-  //   Play,
 } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
